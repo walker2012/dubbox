@@ -12,6 +12,8 @@ Dubbox adds features like RESTful remoting, Kyro/FST serialization, etc to the p
 
 **讨论QQ群**：258792161  （不限于dubbox，包括SOA设计、互联网技术等等兴趣交流）
 
+dubbox 支持spring 4.2.5 
+
 ## Dubbox当前的主要功能
 
 * **支持REST风格远程调用（HTTP + JSON/XML)**：基于非常成熟的JBoss [RestEasy](http://resteasy.jboss.org/)框架，在dubbo中实现了REST风格（HTTP + JSON/XML）的远程调用，以显著简化企业内部的跨语言交互，同时显著简化企业对外的Open API、无线API甚至AJAX服务端等等的开发。事实上，这个REST调用也使得Dubbo可以对当今特别流行的“微服务”架构提供基础性支持。 另外，REST调用也达到了比较高的性能，在基准测试下，HTTP + JSON与Dubbo 2.x默认的RPC协议（即TCP + Hessian2二进制序列化）之间只有1.5倍左右的差距，详见文档中的基准测试报告。
